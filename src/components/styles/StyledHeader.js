@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledHeader = styled.div`
+export const StyledHeader = styled.header`
   background: #1c1c1c;
   padding: 0 20px;
   box-sizing: border-box;
