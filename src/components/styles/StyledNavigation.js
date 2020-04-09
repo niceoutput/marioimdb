@@ -14,7 +14,7 @@ export const StyledNavigation = styled.div`
     padding: 0 20px;
     width: 100%;
 
-    p {
+    span {
       font-family: 'Abel', sans-serif;
       font-size: 22px;
       float: left;
