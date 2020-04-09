@@ -3,6 +3,7 @@ import NoImage from '../images/no_image.jpg';
 import MovieThumb from './MovieThumb';
 import { StyledMovieInfo } from '../styles/StyledMovieInfo';
 import { IMAGE_BASE_URL, POSTER_SIZE } from '../../config';
+import { PropTypes } from 'prop-types';
 
 const MovieInfo = ({ movie }) => (
     <StyledMovieInfo backdrop={movie.backdrop_path}>
@@ -37,5 +38,10 @@ const MovieInfo = ({ movie }) => (
         </div>
     </StyledMovieInfo>
 );
+
+MovieInfo.propTypes = {
+    movie: PropTypes.object,
+    directors: PropTypes.array
+}
 
 export default MovieInfo;
